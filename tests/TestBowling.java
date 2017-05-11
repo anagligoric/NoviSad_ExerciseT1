@@ -68,7 +68,7 @@ public class TestBowling {
 		Frame frame1 = new Frame(5,4);
 		game.addFrame(frame);
 		game.addFrame(frame1);
-		game.setBonus(frame1.getFirstThrow(), frame1.getSecondThrow());
+		
 		game.addFrame(frame1);
 		game.addFrame(frame1);
 		game.addFrame(frame1);
@@ -77,6 +77,7 @@ public class TestBowling {
 		game.addFrame(frame1);
 		game.addFrame(frame);
 		game.addFrame(frame1);
+		game.setBonus(frame1.getFirstThrow(), frame1.getSecondThrow());
 		assertEquals("Incorect game score!", 112, game.score());
 		
 	}

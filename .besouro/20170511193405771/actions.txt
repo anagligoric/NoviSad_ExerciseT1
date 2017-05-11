@@ -72,3 +72,6 @@ RefactoringAction 1494525733070 TestBowling.java RENAME test_firstThrow7frameSco
 RefactoringAction 1494525734094 TestBowling.java RENAME test_firstThrow7_secondframeScore()=>void test_firstThrow7_secondTframeScore() METHOD
 RefactoringAction 1494525736634 TestBowling.java RENAME test_firstThrow7_secondTframeScore()=>void test_firstThrow7_secondThrow3_frameScore() METHOD
 EditAction 1494525873888 TestBowling.java 949 5 10 5
+UnitTestCaseAction 1494525878916 TestBowling.java OK
+UnitTestSessionAction 1494525878922 TestBowling.java OK
+EditAction 1494526108653 BowlingGame.java 822 4 2 0

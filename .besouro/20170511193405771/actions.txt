@@ -106,3 +106,9 @@ RefactoringAction 1494527013231 TestBowling.java RENAME test_firstThrow10_chec=>
 RefactoringAction 1494527157465 BowlingGame.java ADD int getBonusGame() METHOD
 RefactoringAction 1494527157467 BowlingGame.java ADD void setBonusGame(int) METHOD
 EditAction 1494527214323 TestBowling.java 1731 7 29 6
+CompilationAction 1494527217099 TestBowling.java
+RefactoringAction 1494527284676 BowlingGame.java REMOVE setBonusGame(int) METHOD
+RefactoringAction 1494527284677 BowlingGame.java REMOVE getBonusGame() METHOD
+RefactoringAction 1494527310245 BowlingGame.java ADD int getBonusGame() METHOD
+RefactoringAction 1494527310247 BowlingGame.java ADD void setBonusGame(int) METHOD
+EditAction 1494527351806 TestBowling.java 1731 7 29 6

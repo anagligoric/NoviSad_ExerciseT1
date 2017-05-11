@@ -46,9 +46,15 @@ public class TestBowling {
 		game.addFrame(frame);
 		game.addFrame(frame);
 		game.addFrame(frame);
-		
-		
-		
-		}
+	}
+	@Test
+	public void test_firstThrow10_checkBonus() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(10,0);
+		Frame frame1 = new Frame(5,4);
+		game.addFrame(frame);
+		game.addFrame(frame1);
+		assertEquals("Incorrect bonus!", Integer.parseInt("9"),game.getBonusGame());
+	}
 
 }

@@ -21,5 +21,10 @@ public class TestBowling {
 		Frame frame = new Frame(10,1);
 		assertTrue(frame.isStrike());
 	}
+	@Test
+	public void test_firstThrow8_notStrike() throws BowlingException{
+		Frame frame = new Frame(8,1);
+		assertFalse(frame.isStrike());
+	}
 
 }

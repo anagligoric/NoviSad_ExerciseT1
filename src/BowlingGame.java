@@ -11,7 +11,7 @@ public class BowlingGame {
 	private Frame bonus;
 	private int bonusGame = 0;
 	public BowlingGame(){}
-	private int score;
+	private int score=0;
 	// adds a frame to the game
 	public void addFrame(Frame frame) throws BowlingException{
 		//to be implemented
@@ -41,7 +41,7 @@ public class BowlingGame {
 		
 		//to be implemented: should return game score 
 		for(int i = 0; i<10;i++){
-			score =  frames.get(i).score();
+			score +=  frames.get(i).score();
 		}
 		return score + bonusGame;
 	}

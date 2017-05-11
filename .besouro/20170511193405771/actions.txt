@@ -164,3 +164,4 @@ RefactoringAction 1494528906606 BowlingGame.java REMOVE score() METHOD
 RefactoringAction 1494528907644 BowlingGame.java ADD int score() METHOD
 RefactoringAction 1494528907646 BowlingGame.java ADD int getBonusGame() METHOD
 EditAction 1494529064053 TestBowling.java 2450 9 45 7
+EditAction 1494529069872 BowlingGame.java 1360 5 5 0

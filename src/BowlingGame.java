@@ -26,17 +26,13 @@ public class BowlingGame {
 		//to be implemented
 			
 		for(int i = 0; i<frames.size();i++){
-			//if(frames.get(i).isStrike()){
-			if(firstThrow==10){
+			if(frames.get(i).isStrike()){
 				bonus = frames.get(i+1);
 				bonusGame+=bonus.score();
 			}
-			else if (firstThrow+secondThrow == 10){
+			else if (frames.get(i).isSpare()){
 				bonus = frames.get(i+1);
 				bonusGame+=bonus.getFirstThrow();
-			}
-			else{
-				
 			}
 		}
 	}

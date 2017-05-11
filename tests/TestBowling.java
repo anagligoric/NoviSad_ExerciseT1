@@ -32,7 +32,7 @@ public class TestBowling {
 		assertEquals("Incorect score!", Integer.parseInt("10"), frame.score());
 	}
 	@Test (expected = BowlingException.class)
-	public void test_tryToadd11Frame() throws BowlingException{
+	public void test_tryTo_add11Frame() throws BowlingException{
 		Frame frame = new Frame(10,0);
 		BowlingGame game = new BowlingGame();
 		game.addFrame(frame);
@@ -47,14 +47,36 @@ public class TestBowling {
 		game.addFrame(frame);
 		game.addFrame(frame);
 	}
-	@Test
+	/*@Test
 	public void test_firstThrow10_checkBonus() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(10,0);
 		Frame frame1 = new Frame(5,4);
 		game.addFrame(frame);
 		game.addFrame(frame1);
-		assertEquals("Incorrect bonus!", Integer.parseInt("9"),game.getBonusGame());
+		assertEquals("Incorrect bonus!", Integer.parseInt("9"), );
+	}*/
+	@Test 
+	public void test_isStrike_thenTrytoAchieve_pointsInSameFrame() throws BowlingException{
+		
 	}
-
+	@Test
+	public void test_gameScore() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(10,0);
+		Frame frame1 = new Frame(5,4);
+		game.addFrame(frame);
+		game.addFrame(frame1);
+		game.addFrame(frame1);
+		game.addFrame(frame1);
+		game.addFrame(frame1);
+		game.addFrame(frame1);
+		game.addFrame(frame1);
+		game.addFrame(frame);
+		game.addFrame(frame1);
+		game.addFrame(frame);
+		game.addFrame(frame1);
+		assertEquals("Incorect game score!", 117, game.score());
+		
+	}
 }

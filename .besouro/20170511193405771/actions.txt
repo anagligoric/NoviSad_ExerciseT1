@@ -131,3 +131,7 @@ RefactoringAction 1494527654966 TestBowling.java RENAME test_isStrike_thenTrytoA
 RefactoringAction 1494527663007 TestBowling.java RENAME test_isStrike_thenTrytoAchieve_pointsInSameFrame=>void test_isStrike_thenTrytoAchieve_pointsInSameFrame() METHOD
 RefactoringAction 1494527887036 BowlingGame.java ADD int score FIELD
 EditAction 1494527893089 BowlingGame.java 1267 5 5 0
+RefactoringAction 1494527912319 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1494527915863 TestBowling.java RENAME test_=>void test_gameScore FIELD
+RefactoringAction 1494527918897 TestBowling.java RENAME test_gameScore=>void test_gameScore() METHOD
+EditAction 1494528147848 TestBowling.java 2347 8 38 6

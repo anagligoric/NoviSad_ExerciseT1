@@ -150,3 +150,6 @@ RefactoringAction 1494528496313 TestBowling.java ADD void test_firstThrow10_chec
 RefactoringAction 1494528496314 TestBowling.java ADD void test_isStrike_thenTrytoAchieve_pointsInSameFrame() METHOD
 RefactoringAction 1494528496315 TestBowling.java ADD void test_gameScore() METHOD
 EditAction 1494528510346 TestBowling.java 2338 9 43 7
+UnitTestCaseAction 1494528514703 TestBowling.java FAIL
+UnitTestSessionAction 1494528514705 TestBowling.java FAIL
+EditAction 1494528587483 TestBowling.java 2318 9 43 7

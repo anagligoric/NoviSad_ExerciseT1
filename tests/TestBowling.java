@@ -54,7 +54,7 @@ public class TestBowling {
 		Frame frame1 = new Frame(5,4);
 		game.addFrame(frame);
 		game.addFrame(frame1);
-		assertEquals("Incorrect bonus!", Integer.parseInt("9"), game.getBonusGame() );
+		assertEquals("Incorrect bonus!", 9, game.getBonusGame() );
 	}
 	@Test 
 	public void test_isStrike_thenTrytoAchieve_pointsInSameFrame() throws BowlingException{

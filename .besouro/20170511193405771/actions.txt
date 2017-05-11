@@ -83,3 +83,10 @@ RefactoringAction 1494526149675 TestBowling.java RENAME test_tryToadd=>void test
 RefactoringAction 1494526154705 TestBowling.java RENAME test_tryToadd11=>void test_tryToadd11Frame FIELD
 RefactoringAction 1494526159265 TestBowling.java RENAME test_tryToadd11Frame=>void test_tryToadd11Frame() METHOD
 EditAction 1494526314709 TestBowling.java 1422 6 23 5
+UnitTestCaseAction 1494526319460 TestBowling.java OK
+UnitTestSessionAction 1494526319461 TestBowling.java OK
+UnitTestCaseAction 1494526326727 TestBowling.java OK
+UnitTestSessionAction 1494526326729 TestBowling.java OK
+RefactoringAction 1494526861201 BowlingGame.java ADD int bonus/2 FIELD
+RefactoringAction 1494526869274 BowlingGame.java RENAME bonus/2=>int bonusGame FIELD
+EditAction 1494526947941 BowlingGame.java 1097 4 3 0

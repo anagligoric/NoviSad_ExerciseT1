@@ -72,11 +72,10 @@ public class TestBowling {
 		game.addFrame(frame1);
 		game.addFrame(frame1);
 		game.addFrame(frame1);
-		game.addFrame(frame);
 		game.addFrame(frame1);
 		game.addFrame(frame);
 		game.addFrame(frame1);
-		assertEquals("Incorect game score!", 117, game.score());
+		assertEquals("Incorect game score!", 112, game.score());
 		
 	}
 }

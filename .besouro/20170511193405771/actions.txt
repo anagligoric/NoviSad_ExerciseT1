@@ -135,3 +135,6 @@ RefactoringAction 1494527912319 TestBowling.java ADD void test_ FIELD
 RefactoringAction 1494527915863 TestBowling.java RENAME test_=>void test_gameScore FIELD
 RefactoringAction 1494527918897 TestBowling.java RENAME test_gameScore=>void test_gameScore() METHOD
 EditAction 1494528147848 TestBowling.java 2347 8 38 6
+UnitTestCaseAction 1494528152938 TestBowling.java FAIL
+UnitTestSessionAction 1494528152941 TestBowling.java FAIL
+EditAction 1494528194836 TestBowling.java 2322 8 37 6

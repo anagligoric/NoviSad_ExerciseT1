@@ -27,3 +27,13 @@ RefactoringAction 1494525248356 TestBowling.java RENAME test_firstThrow5_secondT
 RefactoringAction 1494525251384 TestBowling.java RENAME test_firstThrow5_secondThrow5_()=>void test_firstThrow5_secondThrow5_isSpare() METHOD
 EditAction 1494525342754 BowlingGame.java 730 4 2 0
 EditAction 1494525345810 TestBowling.java 269 1 2 1
+UnitTestCaseAction 1494525350452 TestBowling.java OK
+UnitTestSessionAction 1494525350456 TestBowling.java OK
+RefactoringAction 1494525368306 TestBowling.java ADD void test FIELD
+RefactoringAction 1494525369328 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1494525370861 TestBowling.java RENAME test_=>void test_First FIELD
+RefactoringAction 1494525372379 TestBowling.java RENAME test_First=>void test_FirstT FIELD
+RefactoringAction 1494525380398 TestBowling.java RENAME test_FirstT=>void test_firstThrow3_secondThrow FIELD
+RefactoringAction 1494525385943 TestBowling.java RENAME test_firstThrow3_secondThrow=>void test_firstThrow3_secondThrow5 FIELD
+RefactoringAction 1494525391474 TestBowling.java RENAME test_firstThrow3_secondThrow5=>void test_firstThrow3_secondThrow5_isSpare() METHOD
+EditAction 1494525460108 TestBowling.java 448 2 4 2

@@ -40,7 +40,7 @@ public class BowlingGame {
 	public int score(){
 		
 		//to be implemented: should return game score 
-		for(int i = 0; i<10;i++){
+		for(int i = 0; i<frames.size();i++){
 			score +=  frames.get(i).score();
 			
 		}

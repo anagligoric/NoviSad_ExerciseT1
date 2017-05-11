@@ -27,8 +27,9 @@ public class TestBowling {
 		assertFalse(frame.isStrike());
 	}
 	@Test
-	public void test_firstThrowframeScore() throws BowlingException{
-		Frame frame = 
+	public void test_firstThrow7_secondThrow3_frameScore() throws BowlingException{
+		Frame frame = new Frame(7,3);
+		assertEquals("Incorect score!", Integer.parseInt("10"), frame.score());
 	}
 
 }

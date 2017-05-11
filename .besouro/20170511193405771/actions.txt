@@ -66,3 +66,9 @@ RefactoringAction 1494525675702 TestBowling.java RENAME test_get=>void test_fram
 RefactoringAction 1494525680286 TestBowling.java RENAME test_frameScore=>void test_frameScore() METHOD
 RefactoringAction 1494525698465 TestBowling.java RENAME test_frameScore()=>void test_firstThrowframeScore() METHOD
 EditAction 1494525716646 TestBowling.java 844 5 8 4
+CompilationAction 1494525719629 TestBowling.java
+RefactoringAction 1494525729045 TestBowling.java RENAME test_firstThrowframeScore()=>void test_firstThrow7frameScore() METHOD
+RefactoringAction 1494525733070 TestBowling.java RENAME test_firstThrow7frameScore()=>void test_firstThrow7_secondframeScore() METHOD
+RefactoringAction 1494525734094 TestBowling.java RENAME test_firstThrow7_secondframeScore()=>void test_firstThrow7_secondTframeScore() METHOD
+RefactoringAction 1494525736634 TestBowling.java RENAME test_firstThrow7_secondTframeScore()=>void test_firstThrow7_secondThrow3_frameScore() METHOD
+EditAction 1494525873888 TestBowling.java 949 5 10 5

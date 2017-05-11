@@ -177,3 +177,7 @@ EditAction 1494529162082 TestBowling.java 2456 9 45 7
 UnitTestCaseAction 1494529168520 TestBowling.java FAIL
 UnitTestSessionAction 1494529168523 TestBowling.java FAIL
 EditAction 1494529223209 TestBowling.java 2450 9 45 7
+UnitTestCaseAction 1494529229706 TestBowling.java FAIL
+UnitTestSessionAction 1494529229710 TestBowling.java FAIL
+RefactoringAction 1494529429113 TestBowling.java REMOVE test_isStrike_thenTrytoAchieve_pointsInSameFrame() METHOD
+EditAction 1494529459343 TestBowling.java 2326 8 45 7

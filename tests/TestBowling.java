@@ -29,7 +29,7 @@ public class TestBowling {
 	@Test
 	public void test_firstThrow7_secondThrow3_frameScore() throws BowlingException{
 		Frame frame = new Frame(7,3);
-		assertEquals("Incorect score!", Integer.parseInt("10"), frame.score());
+		assertEquals("Incorect score!", 10, frame.score());
 	}
 	@Test (expected = BowlingException.class)
 	public void test_tryTo_add11Frame() throws BowlingException{
@@ -57,10 +57,7 @@ public class TestBowling {
 		game.setBonus(frame1.getFirstThrow(), frame1.getSecondThrow());
 		assertEquals("Incorrect bonus!", 9, game.getBonusGame() );
 	}
-	@Test 
-	public void test_isStrike_thenTrytoAchieve_pointsInSameFrame() throws BowlingException{
-		
-	}
+	
 	@Test
 	public void test_gameScore() throws BowlingException{
 		BowlingGame game = new BowlingGame();

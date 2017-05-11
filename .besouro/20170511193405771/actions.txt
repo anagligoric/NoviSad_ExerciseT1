@@ -75,3 +75,11 @@ EditAction 1494525873888 TestBowling.java 949 5 10 5
 UnitTestCaseAction 1494525878916 TestBowling.java OK
 UnitTestSessionAction 1494525878922 TestBowling.java OK
 EditAction 1494526108653 BowlingGame.java 822 4 2 0
+RefactoringAction 1494526141558 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1494526144586 TestBowling.java RENAME test_=>void test_try FIELD
+RefactoringAction 1494526146111 TestBowling.java RENAME test_try=>void test_tryTo FIELD
+RefactoringAction 1494526148141 TestBowling.java RENAME test_tryTo=>void test_tryToadd FIELD
+RefactoringAction 1494526149675 TestBowling.java RENAME test_tryToadd=>void test_tryToadd11 FIELD
+RefactoringAction 1494526154705 TestBowling.java RENAME test_tryToadd11=>void test_tryToadd11Frame FIELD
+RefactoringAction 1494526159265 TestBowling.java RENAME test_tryToadd11Frame=>void test_tryToadd11Frame() METHOD
+EditAction 1494526314709 TestBowling.java 1422 6 23 5

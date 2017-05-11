@@ -31,5 +31,24 @@ public class TestBowling {
 		Frame frame = new Frame(7,3);
 		assertEquals("Incorect score!", Integer.parseInt("10"), frame.score());
 	}
+	@Test (expected = BowlingException.class)
+	public void test_tryToadd11Frame() throws BowlingException{
+		Frame frame = new Frame(10,0);
+		BowlingGame game = new BowlingGame();
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		
+		
+		
+		}
 
 }

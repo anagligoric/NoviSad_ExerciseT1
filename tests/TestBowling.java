@@ -54,7 +54,7 @@ public class TestBowling {
 		Frame frame1 = new Frame(5,4);
 		game.addFrame(frame);
 		game.addFrame(frame1);
-		game.setBonus(frame1.getFirstThrow(), frame1.getSecondThrow());
+		game.setBonus(frame.getFirstThrow(), frame.getSecondThrow());
 		assertEquals("Incorrect bonus!", 9, game.getBonusGame() );
 	}
 	@Test 
@@ -68,6 +68,7 @@ public class TestBowling {
 		Frame frame1 = new Frame(5,4);
 		game.addFrame(frame);
 		game.addFrame(frame1);
+		game.setBonus(frame1.getFirstThrow(), frame1.getSecondThrow());
 		game.addFrame(frame1);
 		game.addFrame(frame1);
 		game.addFrame(frame1);

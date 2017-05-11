@@ -159,3 +159,8 @@ EditAction 1494528661276 TestBowling.java 2385 9 44 7
 UnitTestCaseAction 1494528665472 TestBowling.java FAIL
 UnitTestSessionAction 1494528665474 TestBowling.java FAIL
 EditAction 1494528702623 BowlingGame.java 1297 5 5 0
+RefactoringAction 1494528906604 BowlingGame.java REMOVE getBonusGame() METHOD
+RefactoringAction 1494528906606 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1494528907644 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1494528907646 BowlingGame.java ADD int getBonusGame() METHOD
+EditAction 1494529064053 TestBowling.java 2450 9 45 7

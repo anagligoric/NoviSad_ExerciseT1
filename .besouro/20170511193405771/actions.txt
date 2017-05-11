@@ -37,3 +37,5 @@ RefactoringAction 1494525380398 TestBowling.java RENAME test_FirstT=>void test_f
 RefactoringAction 1494525385943 TestBowling.java RENAME test_firstThrow3_secondThrow=>void test_firstThrow3_secondThrow5 FIELD
 RefactoringAction 1494525391474 TestBowling.java RENAME test_firstThrow3_secondThrow5=>void test_firstThrow3_secondThrow5_isSpare() METHOD
 EditAction 1494525460108 TestBowling.java 448 2 4 2
+RefactoringAction 1494525466815 TestBowling.java RENAME test_firstThrow3_secondThrow5_isSpare()=>void test_firstThrow3_secondThrow5_notSpare() METHOD
+EditAction 1494525468146 TestBowling.java 449 2 4 2

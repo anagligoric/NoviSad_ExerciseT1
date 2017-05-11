@@ -11,7 +11,7 @@ public class TestBowling {
 		
 		//fail("Not yet implemented");
 	}
-	@Test public void test_firstThrow3_secondThrow5_isSpare() throws BowlingException {
+	@Test public void test_firstThrow3_secondThrow5_notSpare() throws BowlingException {
 		Frame frame = new Frame(3,5);
 		assertFalse(frame.isSpare());
 	}

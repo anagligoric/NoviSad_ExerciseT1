@@ -18,13 +18,17 @@ public class TestBowling {
 	}
 	@Test 
 	public void test_firstThrow10_isStrike() throws BowlingException{
-		Frame frame = new Frame(10,1);
+		Frame frame = new Frame(10,0);
 		assertTrue(frame.isStrike());
 	}
 	@Test
 	public void test_firstThrow8_notStrike() throws BowlingException{
 		Frame frame = new Frame(8,1);
 		assertFalse(frame.isStrike());
+	}
+	@Test
+	public void test_firstThrowframeScore() throws BowlingException{
+		Frame frame = 
 	}
 
 }

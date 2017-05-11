@@ -55,3 +55,14 @@ RefactoringAction 1494525563502 TestBowling.java RENAME test_first=>void test_fi
 RefactoringAction 1494525565540 TestBowling.java RENAME test_firstThrow=>void test_firstThrow8 FIELD
 RefactoringAction 1494525571568 TestBowling.java RENAME test_firstThrow8=>void test_firstThrow8_notStrike() METHOD
 EditAction 1494525612104 TestBowling.java 747 4 8 4
+UnitTestCaseAction 1494525616384 TestBowling.java OK
+UnitTestSessionAction 1494525616395 TestBowling.java OK
+UnitTestCaseAction 1494525648874 TestBowling.java OK
+UnitTestSessionAction 1494525648875 TestBowling.java OK
+RefactoringAction 1494525661621 TestBowling.java ADD void test FIELD
+RefactoringAction 1494525662646 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1494525670678 TestBowling.java RENAME test_=>void test_get FIELD
+RefactoringAction 1494525675702 TestBowling.java RENAME test_get=>void test_frameScore FIELD
+RefactoringAction 1494525680286 TestBowling.java RENAME test_frameScore=>void test_frameScore() METHOD
+RefactoringAction 1494525698465 TestBowling.java RENAME test_frameScore()=>void test_firstThrowframeScore() METHOD
+EditAction 1494525716646 TestBowling.java 844 5 8 4

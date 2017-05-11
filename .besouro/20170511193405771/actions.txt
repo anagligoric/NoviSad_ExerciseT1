@@ -26,3 +26,4 @@ RefactoringAction 1494525244333 TestBowling.java RENAME test_firstThrow10_second
 RefactoringAction 1494525248356 TestBowling.java RENAME test_firstThrow5_secondThrow()=>void test_firstThrow5_secondThrow5_() METHOD
 RefactoringAction 1494525251384 TestBowling.java RENAME test_firstThrow5_secondThrow5_()=>void test_firstThrow5_secondThrow5_isSpare() METHOD
 EditAction 1494525342754 BowlingGame.java 730 4 2 0
+EditAction 1494525345810 TestBowling.java 269 1 2 1

@@ -181,3 +181,4 @@ UnitTestCaseAction 1494529229706 TestBowling.java FAIL
 UnitTestSessionAction 1494529229710 TestBowling.java FAIL
 RefactoringAction 1494529429113 TestBowling.java REMOVE test_isStrike_thenTrytoAchieve_pointsInSameFrame() METHOD
 EditAction 1494529459343 TestBowling.java 2326 8 45 7
+EditAction 1494529473232 BowlingGame.java 1302 5 5 0

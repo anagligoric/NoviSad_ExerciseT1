@@ -112,3 +112,22 @@ RefactoringAction 1494527284677 BowlingGame.java REMOVE getBonusGame() METHOD
 RefactoringAction 1494527310245 BowlingGame.java ADD int getBonusGame() METHOD
 RefactoringAction 1494527310247 BowlingGame.java ADD void setBonusGame(int) METHOD
 EditAction 1494527351806 TestBowling.java 1731 7 29 6
+CompilationAction 1494527354560 TestBowling.java
+RefactoringAction 1494527449923 BowlingGame.java REMOVE setBonusGame(int) METHOD
+RefactoringAction 1494527549258 TestBowling.java RENAME test_tryToadd11Frame()=>void test_tryTo FIELD
+RefactoringAction 1494527609854 TestBowling.java REMOVE test_firstThrow10_checkBonus() METHOD
+RefactoringAction 1494527622985 TestBowling.java ADD void test FIELD
+RefactoringAction 1494527624530 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1494527626079 TestBowling.java RENAME test_=>void test_first FIELD
+RefactoringAction 1494527627611 TestBowling.java RENAME test_first=>void test_firstMethid FIELD
+RefactoringAction 1494527629670 TestBowling.java RENAME test_firstMethid=>void test_firstMethod FIELD
+RefactoringAction 1494527634237 TestBowling.java RENAME test_firstMethod=>void test_isStrike FIELD
+RefactoringAction 1494527638283 TestBowling.java RENAME test_isStrike=>void test_isStrike_then FIELD
+RefactoringAction 1494527639813 TestBowling.java RENAME test_isStrike_then=>void test_isStrike_thenTry FIELD
+RefactoringAction 1494527643357 TestBowling.java RENAME test_isStrike_thenTry=>void test_isStrike_thenTrytoAchieve FIELD
+RefactoringAction 1494527649891 TestBowling.java RENAME test_isStrike_thenTrytoAchieve=>void test_isStrike_thenTrytoAchieve_pointsIn FIELD
+RefactoringAction 1494527652928 TestBowling.java RENAME test_isStrike_thenTrytoAchieve_pointsIn=>void test_isStrike_thenTrytoAchieve_pointsInSame FIELD
+RefactoringAction 1494527654966 TestBowling.java RENAME test_isStrike_thenTrytoAchieve_pointsInSame=>void test_isStrike_thenTrytoAchieve_pointsInSameFrame FIELD
+RefactoringAction 1494527663007 TestBowling.java RENAME test_isStrike_thenTrytoAchieve_pointsInSameFrame=>void test_isStrike_thenTrytoAchieve_pointsInSameFrame() METHOD
+RefactoringAction 1494527887036 BowlingGame.java ADD int score FIELD
+EditAction 1494527893089 BowlingGame.java 1267 5 5 0
